@@ -1,0 +1,66 @@
+.modal {
+  font-size: 30px;
+  background-color: red;
+  width: 500px;
+  height: 500px;
+  opacity: 0;
+  visibility: none;
+  transition: all 0.3s;
+}
+
+.modal.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+body.black {
+  background-color: #201e1e;
+}
+
+.modal-btn.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.client-info-wrapper {
+  margin-top: 30px;
+  max-width: 300px;
+  min-height: 100px;
+  background-color: #768dd1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.client-info {
+  color: white;
+  font-size: 20px;
+  border: 1px solid red;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+.content {
+  width: 500px;
+  height: 1000px;
+  background-color: #3dd39e;
+}
+
+.scroll-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 10px;
+  background-color: #c52b2b;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.scroll-btn.visible {
+  visibility: visible;
+  opacity: 1;
+}
