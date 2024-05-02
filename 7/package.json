@@ -1,0 +1,18 @@
+{
+  "name": "Credit-card",
+  "description": "Skillbox homework module 7",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Gleb Elkin",
+  "dependencies": {
+    "creditcard.js": "^3.0.33",
+    "email-validator": "^2.0.4",
+    "imask": "^7.6.0",
+    "redom": "^4.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
